@@ -4,7 +4,7 @@ import 'package:kelime_hatirlatma_project/core/utils/app_colors.dart';
 class AppTheme {
   static ThemeData get theme {
     return ThemeData(
-      fontFamily: 'Cairo',
+      // fontFamily: 'PlayfairDisplay',
       textTheme: const TextTheme(
         headlineMedium: TextStyle(
           fontSize: 20,
