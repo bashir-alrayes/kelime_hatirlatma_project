@@ -4,8 +4,12 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:kelime_hatirlatma_project/core/api/initialBindings.dart';
 import 'package:kelime_hatirlatma_project/core/utils/apptheme.dart';
 import 'package:kelime_hatirlatma_project/routes.dart';
+//import 'package:firebase_messaging/firebase_messaging.dart';
+import 'package:firebase_core/firebase_core.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
