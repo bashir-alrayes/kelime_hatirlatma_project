@@ -7,7 +7,7 @@ class AppLink {
 
   static const String transcation = "$server/api/transcation-api";
 
-  static String blogBySlug(String slug) {
-    return "$server/api/blog-api/$slug";
+  static String deviceToken(String token) {
+    return "$server/api/blog-api/$token";
   }
 }
